@@ -20,7 +20,7 @@ def ml_loop(side: str):
     # === Here is the execution order of the loop === #
     # 1. Put the initialization code here
     ball_served = False
-    filename1p = path.join(path.dirname(__file__),"save","clf_SVR2_pingpong1p.pickle")
+    filename1p = path.join(path.dirname(__file__),"save","clf_SVR1_pingpong1p.pickle")
     filename2p = path.join(path.dirname(__file__),"save","clf_SVR_pingpong2p.pickle")
     with open(filename1p, 'rb') as file:
         clf1p = pickle.load(file)
